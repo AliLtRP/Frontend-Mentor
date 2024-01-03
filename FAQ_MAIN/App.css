@@ -59,20 +59,25 @@ body {
   justify-content: space-between;
   font-weight: 500;
   font-size: 16px;
+  min-height: 30px;
 }
 
 .fx-col {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .para {
   opacity: 0.5;
   display: none;
+  padding: 20px 0 0 0;
+  transition: 100px 0.3s ease-out;
 }
 
 .show-para {
   display: block;
+  max-height: 100px;
 }
 
 .add-height {
@@ -112,8 +117,16 @@ a:hover {
 
 button {
   all: unset;
-  width: max-content;
-  height: max-content;
+  width: 30px;
+  height: 30px;
+  background-image: url('./assets/images/icon-plus.svg');
+}
+
+.button-click {
+  all: unset;
+  width: 30px;
+  height: 30px;
+  background-image: url('./assets/images/icon-minus.svg');
 }
 
 @media (min-width: 500px) {
