@@ -1,0 +1,40 @@
+
+
+
+.thank-page-wrap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-page {
+    width: 500px;
+    height: 518px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 34px 39px 34px 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.success-mark {
+    width: 64px;
+    height: 64px;
+}
+
+.success-img {
+    width: auto;
+    height: auto;
+}
+
+.thank-heading p:first-child {
+    font-family: roboto-bold;
+    font-size: 50px;
+}
+
+.thank-info {
+    width: 91%;
+}

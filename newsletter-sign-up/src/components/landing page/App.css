@@ -1,0 +1,167 @@
+
+
+.wrap {
+    width: 918px;
+    height: 635px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.main-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: inherit;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.main-img {
+    height: inherit;
+}
+
+img {
+    height: inherit;
+}
+
+.main-content {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 0 15px 24px 15px;
+}
+
+.content-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.para-heading {
+    font-family: roboto-bold;
+    font-size: 50px;
+}
+
+.para-info {
+
+}
+
+.list-check {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.list {
+    display: flex;
+    gap: 15px;
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.in-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.form-labels label:last-child {
+    color: hsl(14, 68%, 60%);
+}
+
+.input {
+    width: 371px;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 50%);
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.input:invalid {
+    background-color: hsl(14, 100%, 62%, 50%);
+}
+
+#not_valid {
+    display: none;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+.list-form-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.button {
+    width: 371px;
+    height: 55px;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    filter: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right , hsl(356, 100%, 66%), hsl(14, 100%, 62%));
+    filter: drop-shadow(0px 5px 5px hsl(14, 100%, 62%, 50%));
+    cursor: pointer;
+}
+
+
+@media (max-width: 375px) {
+
+    body {
+        background-color: white !important;
+    }
+
+    .wrap {
+        width: 100%;
+        height: 100vh;
+        padding: 0%;
+    }
+
+    .main-wrap {
+        width: inherit;
+        height: inherit;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-content {
+        gap: 25px;
+    }
+
+    .content-heading {
+        gap: 26px;
+    }
+
+    .list-check {
+        width: 95%;
+        padding-left: 10px;
+    }
+
+    
+
+}
